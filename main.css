@@ -10,7 +10,6 @@
   table{
     width:calc( 100% - 40px);
     border-radius: 20px;
-    overflow: hidden;
     margin: 20px;
     border:2px solid black;
   }
@@ -27,6 +26,12 @@
     padding: 5px;
     padding-inline: 10px;
   }
+  thead{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+  }
   td:nth-child(9){
     border-left:2px solid black;
     
@@ -40,6 +45,8 @@
   
   .bg-purple{
     background-color: #523c84;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
     color: white;
   }
   .bg-pink{
