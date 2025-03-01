@@ -33,7 +33,10 @@
     z-index: 10;
     background-color: white;
   }
-  table>tr:nth-child(2n+1){
+  thead tr:nth-child(2n+1){
+    background-color: white !important;
+  }
+  table tr:nth-child(2n+1){
     background-color: #eff4f6;
   }
   td:nth-child(9){
