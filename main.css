@@ -25,6 +25,7 @@
     border: 2px solid black;
     padding: 5px;
     padding-inline: 10px;
+    width: calc( 100% - 30px);
   }
   thead{
     position: sticky;
